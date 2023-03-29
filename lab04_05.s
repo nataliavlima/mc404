@@ -21,8 +21,8 @@ blt s0, s2, hex      # se e' menor que 15
 j fim
 
 hex:
-blt s0, s3, num    # se menor que 10 : addi 48
-addi s0, s0, 55    # se maior que 10 : addi 55
+blt s0, s3, num    # se menor que 10 - addi 48
+addi s0, s0, 55    # se maior que 10 - addi 55
 add a0, zero, s0
 j imprimir
 
