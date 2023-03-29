@@ -1,7 +1,7 @@
 main:
 
 # Le o caracter do teclado
-addi t0, zero, 5 		 # notar que o imediato e' 5
+addi t0, zero, 5 		 # notar que o imediato e' 5 para caracter
 ecall
 
 # Guarda num registrador

@@ -31,7 +31,7 @@ addi s0, s0, 48
 add a0, zero, s0
 
 imprimir:
-addi t0, zero, 2  # Printa o caractere 
+addi t0, zero, 2    # printa o caractere 
 ecall
 
 addi s4, zero, 104  # printa o h de HEX

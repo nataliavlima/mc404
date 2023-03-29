@@ -25,4 +25,5 @@ fim:
 # Printa o caractere 
 addi t0, zero, 2
 ecall 
+
 ret
